@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class MainScriptTamagotchi {
 
 	public static void main(String[] args) {
+		
 		Tamagotchi myTamagotchi = new Tamagotchi("nom", "couleur", 1000, "type");
 		Scanner myTamagotchiType = new Scanner(System.in);
 		System.out.println("Choisir animal : Lapin / Chien / Dragon");
@@ -79,7 +80,6 @@ public class MainScriptTamagotchi {
 				System.out.println("Votre " + type + " fume, il a maintenant un cancer.");
 				
 			}else if (action.equals("11")) {
-				
 				System.out.println("Votre " + type + " est mort.");
 				
 			}
